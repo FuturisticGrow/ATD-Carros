@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadados Info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kablammo&family=Quicksand:wght@300;400;500;600;700&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS DO PROJETO -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Titulo -->
+    <title>ATD Veículos</title>
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand primary-color">
+                <img class="atd-logo" src="/images/logoatd.png" alt="atd logo">
+
+            </a>
+            <!-- MENU HAMBURGUER -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items " aria-controls="navbar-items " aria-expanded="false" aria-label="Toggle Navigation">
+                <i class="bi bi-card-list"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item primary-color">
+                        <a href="#" class="nav-link active"><i class="bi bi-car-front"></i></a>
+                    </li>
+                    <li class="nav-item primary-color">
+                        <a href="https://wa.me/5531998614876?text=Ol%C3%A1,%20vim%20por%20meio%20do%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os!%20" class="nav-link" target="_blank">ORÇAMENTOS</a>
+                    </li>
+                    <li class="nav-item primary-color">
+                        <a href="#localizacao" class="nav-link">LOCALIZAÇÃO</a>
+                    </li>
+                    <li class="nav-item primary-color">
+                        <a href="#contato" class="nav-link">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- SLIDER -->
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+
+            <div class="carousel-inner" id="cars-photos">
+                <div class="carousel-item active">
+                    <img src="/amarok high.png" alt="newbetle" class="d-block w-100">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/cars/Toro.png" alt="fiat toro" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/cars/new beetle.png" alt="newbeetle" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                 <i class="bi bi-chevron-compact-left"></i>
+                 <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- MINI BANNERS -->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="card text-center">
+                        <i class="bi bi-hand-index-fill"></i>
+                        <div class="card-body">
+                            <h7 class="card-tile primary-color" id="font-2-title">Serviços de Seguro</h7>
+                            <p class="card-text secondary-color">Também realizamos o seguro de seus veículos. </p>
+                            <a href="https://wa.me/5531998614876?text=Ol%C3%A1,%20vim%20por%20meio%20do%20site%20de%20voc%C3%AAs%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os!%20" class="btn btn-dark" target="_blank">Cote o seu!</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- LOCALIZACAO -->
+    <div align="center" class="container col-12 map-responsive" id="localizacao">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0149426373523!2d-43.804901485174874!3d-20.66897106704939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa1603327cd5433%3A0x12c93ed162214563!2sR.%20Alc%C3%ADdes%20Rodrigues%20de%20Oliveira%2C%20261%20-%20Novo%20Carijo%2C%20Conselheiro%20Lafaiete%20-%20MG%2C%2036400-000!5e0!3m2!1sen!2sbr!4v1676435951995!5m2!1sen!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- DESTAQUES -->
+    <div class="container" id="featured-container">
+        <div class="col-12">
+            <h2 class="title primary-color">Carros disponíveis</h2>
+
+        </div>
+        <div class="col-12" id="featured-images">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/amarok high.png" alt="Amarok High" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Amarok High</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/AMAROK TREND.png" alt="Amarok Trend" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Amarok Trend</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/COROLLA.png" alt="Corolla" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Corolla</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/CRUZE.png" alt="Cruze" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Cruze</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/fiat strada.png" alt="Fiat Strada" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Fiat Strada</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/fiat toro.png" alt="Toro" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Toro</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/fiesta azul.png" alt="Fiesta" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Fiesta</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/fiorino.png" alt="Fiorino" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Fiorino</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/FORD F250.png" alt="Ford F250" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">F250</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/ford ranger.png" alt="Ford Ranger" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Ford Ranger</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/fox gii.png" alt="Fox" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Fox</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/gol city.png" alt="Gol City" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Gol City</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/GOL.png" alt="Gol" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Gol</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/HILLUX CD.png" alt="Hillux CD" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Hillux CD</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/HILUX SW4.png" alt="Hillux SW4" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Hillux SW4</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/honda accord.png" alt="Honda Accord" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Honda Accord</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/HONDA NXR.png" alt="Honda NXR" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Honda NXR</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/IX35.png" alt="IX35" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">IX35</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/new beetle.png" alt="New Beetle" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">New Beetle</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/nissan frontier.png" alt="Nissan Frontier" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Nissan Frontier</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/ONIX HATCH.png" alt="Onix Hatch" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Onix Hatch</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/ONIX.png" alt="Onix" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Onix</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/polo.png" alt="Polo" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Polo</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/s10.png" alt="S10" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">S10</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/saveiro.png" alt="Saveiro" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Saveiro</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/Toro.png" alt="Toro" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Toro</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/images/cars/vw up.png" alt="Amarok High" class="img-fluid">
+                    <div class="banner-content">
+                        <h3 id="font-2-title">Amarok High</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- VIDEOS DEPOIMENTOS -->
+    <div align="center" class="container" id="videos-label">
+        <div class="col-6">
+            <div class="wave_popover_embed" data-id="EIcbURkm0B5ISP2a" data-width="360" data-height="639">
+                <div>
+                    <style>
+                        [data-id="EIcbURkm0B5ISP2a"] .img_wrapper {
+                            border: 2px solid #292a2b
+                        }
+                        
+                        ;
+                        [data-id="EIcbURkm0B5ISP2a"].watched .img_wrapper {
+                            border: 2px solid #EBEEF5
+                        }
+                        
+                        ;
+                    </style>
+                    <div style="width: 100px; margin: 10px; cursor: pointer;" data-target="target">
+                        <div style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; padding: 3px; margin: 0 auto 8px;" class="img_wrapper"><img src="https://embed.wave.video/EIcbURkm0B5ISP2a/preview.jpg" alt="Click to watch" style="object-fit: cover; display: block; margin: 0; width: 100%; height: 100%; border-radius: 50%;" /></div>
+                        <p align="center" style="font-style: normal; font-weight: bold; font-size: 14px; line-height: 17px; text-align: center; color:#04724D; margin: 0;"><i class="bi bi-cursor-fill"></i> Depoimentos de clientes</p>
+                    </div>
+                </div>
+                <script src="https://wave.video/embed/popover-embed.js"></script>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- INFO CONTAINER-->
+    <div class="container" id="info-container">
+        <div class="col-12">
+            <h2 align="left" class="title primary-color">Viver é realizar sonhos.</h2>
+
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                    <img src="/images/andre.jpeg" alt="informacoes da gravadora" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12 destaques">
+
+                            <p class="subtitle secondary-colors" id="info-atd"><br>Chegou a hora de se dar ao luxo de dirigir o carro dos seus sonhos.
+
+                                <br> Nossa concessionária acaba de lançar uma variedade incrível de veículos de alta performance, design arrojado e tecnologia avançada.<br> Não importa se você procura um carro esportivo, familiar ou executivo, temos a
+                                opção perfeita para você.<br> Além disso, oferecemos financiamento flexível e opções de leasing para tornar a aquisição do seu novo carro ainda mais fácil. Venha visitar-nos hoje e experimente a emoção de dirigir um carro
+                                de verdade.
+                                <br>
+                                <br>
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <a href="https://www.instagram.com/atd_veiculos/" class="btn btn-dark">Nosso Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP-->
+                <div class="col-12" id="footer-top">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <h2>ATD Veículos & Seguros</h2>
+                        </div>
+                        <div class="col-4" id="social-icons">
+                            <a href="https://www.instagram.com/atd_veiculos/" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER DETAILS -->
+                <div class="col-12" id="footer-detail"></div>
+                <div class="row">
+
+                    <div class="col-12 col-md-4" id="contact-container">
+                        <h4 class="primary-color" id="contato">Contato</h4>
+                        <p class="secondary-color" id="font-color-footer">André Thomaz Dias</p>
+                        <p class="secondary-color" id="font-color-footer">+55 31 8336-6453</p>
+                    </div>
+                    <div class="col-12 col-md-4" id="links-container">
+                        <div class="row">
+                            <h4 class="primary-color">Cultura automobilística</h4>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <a href="https://www.youtube.com/watch?v=E75kHTrEeWo" id="font-color-footer">Como é feito um carro?</a>
+                                    <br>
+                                    <br>
+                                    <li>
+                                        <a href="https://www.youtube.com/watch?v=ypdvDbf_iG4" class="secondary-color" id="font-color-footer">O primeiro carro do mundo</a>
+                                    </li>
+                                    <br>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER BOTTOM -->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color" id="font-color-footer">ATD &copy;</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p class="secondary-color" id="font-color-footer2"> <i class="bi bi-cone" id="font-color-footer2"></i>Conselheiro Lafaiete 2023
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>
